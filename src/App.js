@@ -10,6 +10,7 @@ function App() {
   const [inputValue, setInputValue] = useState("");
   const[tasks, setTasks] = useState([]);
 
+  // funtion to add tasks to the list.
   const addTask = (e) => {
     e.preventDefault();
 
@@ -47,7 +48,6 @@ function App() {
   return (
 
     <div className="App">
-
       
 
       <div className="container">
